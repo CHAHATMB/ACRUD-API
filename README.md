@@ -17,16 +17,16 @@ Follow the step to Install on your machine before this configure the .env file w
 > Now you can access the api using http://localhost:3000/api at local machine
 
 ## API Endpoints
- #### User
+#### User
   - Get /api
-  - POST /user/signup
-  - POST /user/login
+  - POST /api/user/signup
+  - POST /api/user/login
 #### Post
-  - GET /post/
-  - POST /post/create
-  - GET /post/{:id}
-  - PUT /post/update/{:id}
-  - Delete /post/delete/{:id}
+  - GET /api/post/
+  - POST /api/post/create
+  - GET /api/post/{:id}
+  - PUT /api/post/update/{:id}
+  - Delete /api/post/delete/{:id}
 
 
 

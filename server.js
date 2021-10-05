@@ -13,13 +13,13 @@ app.use(urlencoded({ extended: false }));
 app.use(json());
 
 // get method on '/'
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.status(400).send('WelCome to CRUD API with Authentication for user and posts');
 });
 
 // seting up router's
-app.use('/user', user);
-app.use('/post', post);
+app.use('/api/user', user);
+app.use('/api/post', post);
 
 // if encounter with the path that is not known, unknow paths responding with 404 status code
 app.use('*', (req, res) => {
